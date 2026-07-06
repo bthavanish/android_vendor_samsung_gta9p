@@ -1,7 +1,7 @@
 # Audio
-vendor/lib64/hw/audio.primary.holi.so
-vendor/lib64/hw/audio.r_submix.default.so
-vendor/lib64/hw/audio.usb.default.so
+vendor/lib64/hw/audio.primary.holi.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.r_submix.default.so;DISABLE_CHECKELF
+vendor/lib64/hw/audio.usb.default.so;DISABLE_CHECKELF
 
 # Bluetooth
 # vendor/lib64/hw/android.hardware.bluetooth@1.1-impl-qti.so
@@ -13,7 +13,7 @@ vendor/lib64/hw/audio.usb.default.so
 
 # Display
 # vendor/lib64/hw/android.hardware.graphics.allocator@4.0-impl.so
-vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
+vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so;DISABLE_CHECKELF
 # vendor/lib64/hw/gralloc.holi.so
 # vendor/lib64/hw/hwcomposer.holi.so
 # vendor/lib64/hw/memtrack.holi.so
@@ -26,7 +26,7 @@ vendor/lib64/hw/android.hardware.graphics.mapper@4.0-impl-qti-display.so
 # vendor/lib64/hw/android.hardware.gatekeeper@1.0-service.so
 
 # GPS
-vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so
+vendor/lib64/hw/android.hardware.gnss@2.1-impl-qti.so;DISABLE_CHECKELF
 # vendor/lib64/hw/android.hardware.gnss@2.1-service-qti.so
 
 # Health

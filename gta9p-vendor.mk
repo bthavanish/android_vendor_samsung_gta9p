@@ -1,4 +1,4 @@
-# Copyright (C) 2024 The LineageOS Project
+# Copyright (C) 2026 The LineageOS Project
 
 LOCAL_PATH := $(call my-dir)
 
